@@ -16,7 +16,7 @@ export const NewItemForm = ({onAdd}: NewItemFormProps) => {
     const handleAddText = (event: React.KeyboardEvent<HTMLInputElement>)=> {
         if( event.key === "Enter") {
             onAdd(text)
-            console.log("Hi")
+           
         }
     }
     return (
